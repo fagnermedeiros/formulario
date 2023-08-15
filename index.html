@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fromulario</title>
+	<style>
+		label{
+			display: block;
+		}
+		form{
+			margin: 20px 30% 20px 30%;
+			width: 400px;
+			height: 550px;
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+		}		
+		.teste{
+			background:linear-gradient(aqua,black 95%);
+			padding: 46px 100px;			
+		}
+		.container{
+			max-width: 200px;			
+		}
+		label{
+			text-align: left;
+			margin-left: 10px;
+			padding: 10px 0;
+		}
+		input{
+			padding: 7px;
+		}
+		textarea{				
+			margin-top: 26px;			
+			padding: 19px;
+		}
+		button{			
+			display: block;
+			position: relative;
+			padding: 8px 15px;
+			margin-top: 28px;
+			left: 70px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<div class="teste">
+		<h1>formulario</h1>
+			<div class="container">
+			<label>Nome</label>
+			<input type="text" name="F_nome">
+			<label>endereço</label>
+			<input type="text" name="endereço">
+			<label>telefone</label>
+			<input type="text" name="telefone">
+			</div><!--container-->
+		<textarea placeholder="Deixe seu comentario"></textarea>
+		<button>Enviar</button>
+		</div>
+	</form>
+</body>
+</html>
